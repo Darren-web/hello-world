@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<meta  charset="utf-8" />
+<title>欢迎登录</title>
+<style type="text/css">
+form{
+	background-image: url(img/hh2.jpg);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	height: 380px;
+	width: 720px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#content{
+	width: 720px;
+	text-align: center;
+}
+#content img {
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+#content p {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+.name{
+	background: url(img/pic04.png) 5px 5px no-repeat #fff;
+}
+.pass{
+	background: url(img/pic05.png) 5px 5px no-repeat #fff;
+}
+.right{
+    margin:10px 0 0 35px;
+}
+.left,.right{
+	cursor: pointer;
+	background: transparent;
+	padding: 6px 15px;
+	border-radius: 6px;
+	color: #fff;
+	font-size: 18px;
+}
+body {
+	text-align: center;
+	background-color: #FFCCCC;
+}
+h1 {
+	font-family: "宋体";
+	color: #666666;
+	width: 500px;
+	margin: 50px auto auto auto;
+}
+.name,.pass{
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 25px;
+}
+.join{
+	display: block;
+	margin-top: 7px;
+	text-decoration: none;
+	color: #fff;
+}
+</style>
+</head>
+
+<body>
+<h1>欢迎来到毛不易的粉丝站</h1>
+<form action="index.html" method="get">
+  <div id="content">
+    <img src="img/hh1.jpg" width="180" height="180" />   
+    <p>
+      <input name="name" type="text" class="name" placeholder="用户名"/>
+    </p>
+    <p>
+      <input name="pass" type="password" class="pass" placeholder="密码"/>
+    </p>
+    <input type="submit" class="left" value="登录" /><input type="reset" class="right" value="重置" /><br />
+    <a href="join.html" class="join">没有账号？去注册~~</a>
+  </div>
+</form>
+
+</body>
+</html>
